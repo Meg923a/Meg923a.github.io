@@ -1,132 +1,548 @@
 <!DOCTYPE html>
-<html class="background-image">
+<html>
     <head>
-        <meta charset="utf-8">
         <title></title>
-        <link href="style.css" rel="stylesheet">
-        <link href="lib/all.css" rel="stylesheet">
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, user-scalable=no"
+        />
+        <link rel="stylesheet" href="assets/css/main.css" />
+        <noscript
+            ><link rel="stylesheet" href="assets/css/noscript.css"
+        /></noscript>
     </head>
-    <body>
-        <header id="header">
-            <div>
-                <span>
-                    <img src="image/Megumi923_icon_irl.jpg" class="avatar" alt="Megumi923-icon" />
-                </span>
-            </div>
-            <div class="content">
-                <div class="inner">
-                    <h1>Scott Cheung</h1>
-                    <h3>Potatogrammer</h3>
-                    <p>I can't walk anymore<br /></p>
+    <body class="is-preload">
+        <!-- Wrapper -->
+        <div id="wrapper">
+            <!-- Header -->
+            <header id="header">
+                <img
+                    src="images/Meg923a_avatar.jpg"
+                    class="logo"
+                    alt="avatar"
+                />
+                <div class="content">
+                    <div class="inner">
+                        <h1>SCOTT CHEUNG</h1>
+                        <p>We Yoking, We Shilling</p>
+                    </div>
                 </div>
+                <nav>
+                    <ul>
+                        <li><a href="#intro">Intro</a></li>
+                        <li><a href="#work">Work</a></li>
+                        <li><a href="#contact">Links</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <!-- Main -->
+            <div id="main">
+                <!-- Intro -->
+                <article id="intro">
+                    <h2 class="major">Intro</h2>
+                    <span class="image main"
+                        ><img src="images/intro/padoru_shion.png" alt=""
+                    /></span>
+                    <p>
+                        HK 00s Programmer (backend)<br />
+                        Souls game, rythm game, RPG enjoyer<br />
+                        Still waiting for BloodBorne on steam : |
+                    </p>
+                    <p>
+                        I write codes, scripts and custom themes. Check
+                        <a href="#work">here</a>.
+                    </p>
+                </article>
+
+                <!-- Work -->
+                <article id="work">
+                    <h2 class="major">Work</h2>
+                    <h3>Discord Helper</h3>
+                    <span class="image main"
+                        ><img src="images/work/discord_helper_demo.png" alt=""
+                    /></span>
+                    <p>
+                        Place of random stuff<br />
+                        Integrated Youtube service, Discord server management
+                        and various features.
+                    </p>
+                    <hr />
+                    <h3>
+                        <a
+                            href="https://github.com/Meg923a/Meg923a.theme"
+                            target="_blank"
+                            >Discord Theme</a
+                        >
+                    </h3>
+                    <span class="image main"
+                        ><img src="images/work/discord_theme_demo.png" alt=""
+                    /></span>
+                    <p>The default theme sucks</p>
+                    <hr />
+                    <h3>
+                        <a
+                            href="https://drive.google.com/file/d/1SzhNH2tO9TaoLRZvEmKUHjzRCId79vCO/view?usp=sharing"
+                            target="_blank"
+                            >OSU! Skin</a
+                        >
+                    </h3>
+                    <span class="image main"
+                        ><img src="images/work/osu_skin_demo.png" alt=""
+                    /></span>
+                    <p>Clean, Dark colored skin</p>
+                </article>
+
+                <!-- Contact -->
+                <article id="contact">
+                    <h2 class="major">Links</h2>
+                    <ul class="icons">
+                        <li>
+                            <a
+                                href="https://github.com/Meg923a"
+                                target="_blank"
+                                class="icon brands fa-github"
+                                ><span class="label">GitHub</span></a
+                            >
+                        </li>
+                        <li>
+                            <a href="#notatall" class="icon brands fa-instagram"
+                                ><span class="label">Instagram</span></a
+                            >
+                        </li>
+                        <li>
+                            <a href="#notatall" class="icon brands fa-twitter"
+                                ><span class="label"></span
+                            ></a>
+                        </li>
+                        <li>
+                            <a href="#notatall" class="icon brands fa-youtube"
+                                ><span class="label">Youtube</span></a
+                            >
+                        </li>
+                        <li>
+                            <a href="#notatall" class="icon brands fa-twitch"
+                                ><span class="label">Twitch</span></a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="https://www.coca-cola.com/in/en/brands/honesttea"
+                                target="_blank"
+                                class="icon solid fa-seedling"
+                                ><span class="label">Honest Tea</span></a
+                            >
+                        </li>
+                    </ul>
+                </article>
+
+                <!-- Not at all -->
+                <article id="notatall">
+                    <h2 class="major">並沒有</h2>
+                    <span class="image main"
+                        ><img src="images/links/notAtAll.png" alt=""
+                    /></span>
+                </article>
+
+                <!-- A -->
+                <article id="a">
+                    <h2 class="major">A</h2>
+                    <span class="image main"
+                        ><img src="images/about/GuwrGura_a.png" alt=""
+                    /></span>
+                </article>
+
+                <!-- Elements 
+                <article id="elements">
+                    <h2 class="major">Elements</h2>
+                    <section>
+                        <h3 class="major">Text</h3>
+                        <p>
+                            This is <b>bold</b> and this is
+                            <strong>strong</strong>. This is <i>italic</i> and
+                            this is <em>emphasized</em>. This is
+                            <sup>superscript</sup> text and this is
+                            <sub>subscript</sub> text. This is
+                            <u>underlined</u> and this is code:
+                            <code>for (;;) { ... }</code>. Finally,
+                            <a href="#">this is a link</a>.
+                        </p>
+                        <hr />
+                        <h2>Heading Level 2</h2>
+                        <h3>Heading Level 3</h3>
+                        <h4>Heading Level 4</h4>
+                        <h5>Heading Level 5</h5>
+                        <h6>Heading Level 6</h6>
+                        <hr />
+                        <h4>Blockquote</h4>
+                        <blockquote>
+                            Fringilla nisl. Donec accumsan interdum nisi, quis
+                            tincidunt felis sagittis eget tempus euismod.
+                            Vestibulum ante ipsum primis in faucibus vestibulum.
+                            Blandit adipiscing eu felis iaculis volutpat ac
+                            adipiscing accumsan faucibus. Vestibulum ante ipsum
+                            primis in faucibus lorem ipsum dolor sit amet nullam
+                            adipiscing eu felis.
+                        </blockquote>
+                        <h4>Preformatted</h4>
+                        <pre><code>i = 0;
+
+while (!deck.isInOrder()) {
+    print 'Iteration ' + i;
+    deck.shuffle();
+    i++;
+}
+
+print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
+                    </section>
+
+                    <section>
+                        <h3 class="major">Lists</h3>
+
+                        <h4>Unordered</h4>
+                        <ul>
+                            <li>Dolor pulvinar etiam.</li>
+                            <li>Sagittis adipiscing.</li>
+                            <li>Felis enim feugiat.</li>
+                        </ul>
+
+                        <h4>Alternate</h4>
+                        <ul class="alt">
+                            <li>Dolor pulvinar etiam.</li>
+                            <li>Sagittis adipiscing.</li>
+                            <li>Felis enim feugiat.</li>
+                        </ul>
+
+                        <h4>Ordered</h4>
+                        <ol>
+                            <li>Dolor pulvinar etiam.</li>
+                            <li>Etiam vel felis viverra.</li>
+                            <li>Felis enim feugiat.</li>
+                            <li>Dolor pulvinar etiam.</li>
+                            <li>Etiam vel felis lorem.</li>
+                            <li>Felis enim et feugiat.</li>
+                        </ol>
+                        <h4>Icons</h4>
+                        <ul class="icons">
+                            <li>
+                                <a href="#" class="icon brands fa-twitter"
+                                    ><span class="label">Twitter</span></a
+                                >
+                            </li>
+                            <li>
+                                <a href="#" class="icon brands fa-facebook-f"
+                                    ><span class="label">Facebook</span></a
+                                >
+                            </li>
+                            <li>
+                                <a href="#" class="icon brands fa-instagram"
+                                    ><span class="label">Instagram</span></a
+                                >
+                            </li>
+                            <li>
+                                <a href="#" class="icon brands fa-github"
+                                    ><span class="label">Github</span></a
+                                >
+                            </li>
+                        </ul>
+
+                        <h4>Actions</h4>
+                        <ul class="actions">
+                            <li>
+                                <a href="#" class="button primary">Default</a>
+                            </li>
+                            <li><a href="#" class="button">Default</a></li>
+                        </ul>
+                        <ul class="actions stacked">
+                            <li>
+                                <a href="#" class="button primary">Default</a>
+                            </li>
+                            <li><a href="#" class="button">Default</a></li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h3 class="major">Table</h3>
+                        <h4>Default</h4>
+                        <div class="table-wrapper">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Name</th>
+                                        <th>Description</th>
+                                        <th>Price</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Item One</td>
+                                        <td>
+                                            Ante turpis integer aliquet
+                                            porttitor.
+                                        </td>
+                                        <td>29.99</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Item Two</td>
+                                        <td>
+                                            Vis ac commodo adipiscing arcu
+                                            aliquet.
+                                        </td>
+                                        <td>19.99</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Item Three</td>
+                                        <td>
+                                            Morbi faucibus arcu accumsan lorem.
+                                        </td>
+                                        <td>29.99</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Item Four</td>
+                                        <td>
+                                            Vitae integer tempus condimentum.
+                                        </td>
+                                        <td>19.99</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Item Five</td>
+                                        <td>
+                                            Ante turpis integer aliquet
+                                            porttitor.
+                                        </td>
+                                        <td>29.99</td>
+                                    </tr>
+                                </tbody>
+                                <tfoot>
+                                    <tr>
+                                        <td colspan="2"></td>
+                                        <td>100.00</td>
+                                    </tr>
+                                </tfoot>
+                            </table>
+                        </div>
+
+                        <h4>Alternate</h4>
+                        <div class="table-wrapper">
+                            <table class="alt">
+                                <thead>
+                                    <tr>
+                                        <th>Name</th>
+                                        <th>Description</th>
+                                        <th>Price</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Item One</td>
+                                        <td>
+                                            Ante turpis integer aliquet
+                                            porttitor.
+                                        </td>
+                                        <td>29.99</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Item Two</td>
+                                        <td>
+                                            Vis ac commodo adipiscing arcu
+                                            aliquet.
+                                        </td>
+                                        <td>19.99</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Item Three</td>
+                                        <td>
+                                            Morbi faucibus arcu accumsan lorem.
+                                        </td>
+                                        <td>29.99</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Item Four</td>
+                                        <td>
+                                            Vitae integer tempus condimentum.
+                                        </td>
+                                        <td>19.99</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Item Five</td>
+                                        <td>
+                                            Ante turpis integer aliquet
+                                            porttitor.
+                                        </td>
+                                        <td>29.99</td>
+                                    </tr>
+                                </tbody>
+                                <tfoot>
+                                    <tr>
+                                        <td colspan="2"></td>
+                                        <td>100.00</td>
+                                    </tr>
+                                </tfoot>
+                            </table>
+                        </div>
+                    </section>
+
+                    <section>
+                        <h3 class="major">Buttons</h3>
+                        <ul class="actions">
+                            <li>
+                                <a href="#" class="button primary">Primary</a>
+                            </li>
+                            <li><a href="#" class="button">Default</a></li>
+                        </ul>
+                        <ul class="actions">
+                            <li><a href="#" class="button">Default</a></li>
+                            <li><a href="#" class="button small">Small</a></li>
+                        </ul>
+                        <ul class="actions">
+                            <li>
+                                <a
+                                    href="#"
+                                    class="button primary icon solid fa-download"
+                                    >Icon</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="#"
+                                    class="button icon solid fa-download"
+                                    >Icon</a
+                                >
+                            </li>
+                        </ul>
+                        <ul class="actions">
+                            <li>
+                                <span class="button primary disabled"
+                                    >Disabled</span
+                                >
+                            </li>
+                            <li>
+                                <span class="button disabled">Disabled</span>
+                            </li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h3 class="major">Form</h3>
+                        <form method="post" action="#">
+                            <div class="fields">
+                                <div class="field half">
+                                    <label for="demo-name">Name</label>
+                                    <input
+                                        type="text"
+                                        name="demo-name"
+                                        id="demo-name"
+                                        value=""
+                                        placeholder="Jane Doe"
+                                    />
+                                </div>
+                                <div class="field half">
+                                    <label for="demo-email">Email</label>
+                                    <input
+                                        type="email"
+                                        name="demo-email"
+                                        id="demo-email"
+                                        value=""
+                                        placeholder="jane@untitled.tld"
+                                    />
+                                </div>
+                                <div class="field">
+                                    <label for="demo-category">Category</label>
+                                    <select
+                                        name="demo-category"
+                                        id="demo-category"
+                                    >
+                                        <option value="">-</option>
+                                        <option value="1">Manufacturing</option>
+                                        <option value="1">Shipping</option>
+                                        <option value="1">
+                                            Administration
+                                        </option>
+                                        <option value="1">
+                                            Human Resources
+                                        </option>
+                                    </select>
+                                </div>
+                                <div class="field half">
+                                    <input
+                                        type="radio"
+                                        id="demo-priority-low"
+                                        name="demo-priority"
+                                        checked
+                                    />
+                                    <label for="demo-priority-low">Low</label>
+                                </div>
+                                <div class="field half">
+                                    <input
+                                        type="radio"
+                                        id="demo-priority-high"
+                                        name="demo-priority"
+                                    />
+                                    <label for="demo-priority-high">High</label>
+                                </div>
+                                <div class="field half">
+                                    <input
+                                        type="checkbox"
+                                        id="demo-copy"
+                                        name="demo-copy"
+                                    />
+                                    <label for="demo-copy"
+                                        >Email me a copy</label
+                                    >
+                                </div>
+                                <div class="field half">
+                                    <input
+                                        type="checkbox"
+                                        id="demo-human"
+                                        name="demo-human"
+                                        checked
+                                    />
+                                    <label for="demo-human">Not a robot</label>
+                                </div>
+                                <div class="field">
+                                    <label for="demo-message">Message</label>
+                                    <textarea
+                                        name="demo-message"
+                                        id="demo-message"
+                                        placeholder="Enter your message"
+                                        rows="6"
+                                    ></textarea>
+                                </div>
+                            </div>
+                            <ul class="actions">
+                                <li>
+                                    <input
+                                        type="submit"
+                                        value="Send Message"
+                                        class="primary"
+                                    />
+                                </li>
+                                <li><input type="reset" value="Reset" /></li>
+                            </ul>
+                        </form>
+                    </section>
+                </article>
+				-->
             </div>
-            <!-- navigation bar -->
-            <nav class="nav">
-                <ul>
-                    <li><a href="#intro">Intro</a></li>
-                    <li><a href="#work">Work</a></li>
-                    <li><a href="#links">Links</a></li>
-                </ul>
-            </nav>
-        </header>
-        
-        <div id="main" style="display: block;">
-            <!-- intro -->
-			<article id="intro">
-				<h2>Intro</h2>
-				<ul>
-                    <li>HK potato <del>pro</del>grammer</li>
-                    <li>Python, C family, Java, PHP, web (html + Javascript + css), database</li>
-                    <li>Favourate IDE: VI(sual Studio Code)</li>
-                    <li><a href="http://honesttea.com" target="_blank">Honest Tea</a></li>
-                </ul>
-                <table class="uselessTable">
-                    <thead>
-                        <tr>
-                            <th>I don't</th>
-                            <th>know what</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>to put in table</td>
-                            <td>so I just</td>
-                        </tr>
-                        <tr>
-                            <td>throw some</td>
-                            <td>random styles :|</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </article>
 
-            <!-- work -->
-			<article id="work">
-				<h2>Work</h2>
-				<p>
-					<h3>FBI (discord_bot)</h3>
-                    <p>
-                        自用的discord bot，有著各種意義不明的功能 (?<br>
-                        基本上是我自己寫爽的，不定時update<br>
-                        (p.s. music playing function disabled due to legal issue)<br>
-                        <br>
-                        My private discord bot, having some weird features (?<br>
-                        Just for entertaining myself, updating irregularlly<br>
-                    </p>
-                    <span>
-                        <img src="image/FBI_rythm_bot_demo_1.png" class="demo-image" alt="FBI_rythm_bot_demo_1" />
-                        <img src="image/video2srt_demo_1.png" class="demo-image" alt="video2srt_demo_1" />
-                    </span>
-                    <h3>Megumi923.theme (discord skin)</h3>
-                    <p>
-                        最近才重新寫的discord skin (因為原本的skin在某次的discord更新後就爛了)<br>
-                        其實也只是東拼西湊回來的skin，還有一大堆破破爛爛的地方在等著我補<br>
-                        <br>
-                        Discord skin that is being rewritten recently, because the old one was broken<br>
-                        Still there are a lot of unfinished part in the new skin<br>
-                    </p>    
-                    <span>
-                        <img src="image/discord_skin_demo_1.png" class="demo-image" alt="discord_skin_demo_1" />
-                    </span>
-                    <h3>- Megumi923 - (190724) (osu! skin)</h3>
-                    <p>
-                        公元前的 osu! skin (對這是19年的skin)<br>
-                        只有 in-game 的部分是自製，剩下的都是直接從其他skin搬過來<br>
-                        <br>
-                        An old custom osu! skin<br>
-                        Only element in-game is custom made<br>
-                    </p>
-                    <span>
-                        <img src="image/osu_demo_1.png" class="demo-image" alt="osu_demo_1" />
-                    </span>
-				</p>
-            </article>
-
-            <!-- links -->
-			<article id="links">
-				<h2>Links</h2>
-				<p>一些奇奇怪怪的link | Some weird links</p>
-				<ul class="icons">
-                    <li><a href="https://github.com/Meg923a" target="_blank" class="icon"><i class="fab fa-github"></i></a></li>
-					<li><a href="https://www.instagram.com/_megumi923_" target="_blank" class="icon"><i class="fab fa-instagram"></i></a></li>
-					<li><a href="https://www.youtube.com/channel/UC-OHo_WHQMCXS5hZ03mEvdQ" target="_blank" class="icon"><i class="fab fa-youtube"></i></a></li>
-                    <li><a href="https://www.twitch.tv/megumi923" target="_blank" class="icon"><i class="fab fa-twitch"></i></a></li>
-				</ul>
-                <p class="blank"></p>
-                <div class="hidden-background-image">
-                    <p>來，來看這個好康的</p>
-                    <p>i've got something for you</p>
-                    <iframe
-                        width="480"
-                        height="280"
-                        src="https://www.youtube.com/embed/FID1Z5BkHaI"
-                        title="YouTube video player"
-                        frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen
-                    ></iframe>
-                </div>
-            </article>
+            <!-- Footer -->
+            <footer id="footer">
+                <p class="copyright">
+                    &copy; Meg923a. Design:
+                    <a href="https://html5up.net">HTML5 UP</a>.
+                </p>
+            </footer>
         </div>
+
+        <!-- BG -->
+        <div id="bg"></div>
+
+        <!-- Scripts -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/browser.min.js"></script>
+        <script src="assets/js/breakpoints.min.js"></script>
+        <script src="assets/js/util.js"></script>
+        <script src="assets/js/main.js"></script>
     </body>
 </html>
