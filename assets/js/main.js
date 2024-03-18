@@ -296,6 +296,10 @@
 						.appendTo($this)
 						.on('click', function() {
 							location.hash = '';
+
+							if (location.hash != '#a') {
+								resetVideo_guwrgura();
+							}
 						});
 
 				// Prevent clicks from inside article from bubbling.
@@ -312,6 +316,10 @@
 					if ($body.hasClass('is-article-visible'))
 						$main._hide(true);
 
+						if (location.hash != '#a') {
+							resetVideo_guwrgura();
+						}
+
 			});
 
 			$window.on('keyup', function(event) {
@@ -323,6 +331,9 @@
 						// Article visible? Hide.
 							if ($body.hasClass('is-article-visible'))
 								$main._hide(true);
+								if (location.hash != '#a') {
+									resetVideo_guwrgura();
+								}
 
 						break;
 
@@ -334,7 +345,6 @@
 			});
 
 			$window.on('hashchange', function(event) {
-
 				// Empty hash?
 					if (location.hash == ''
 					||	location.hash == '#') {
