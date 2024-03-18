@@ -355,7 +355,7 @@
 
 						// Hide.
 							$main._hide();
-
+							resetVideo_guwrgura();
 					}
 
 				// Otherwise, check for a matching article.
