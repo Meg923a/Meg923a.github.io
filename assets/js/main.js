@@ -298,7 +298,7 @@
 							location.hash = '';
 
 							if (location.hash != '#a') {
-								resetVideo_guwrgura();
+								resetVideo_rurudo();
 							}
 						});
 
@@ -317,7 +317,7 @@
 						$main._hide(true);
 
 						if (location.hash != '#a') {
-							resetVideo_guwrgura();
+							resetVideo_rurudo();
 						}
 
 			});
@@ -332,7 +332,7 @@
 							if ($body.hasClass('is-article-visible'))
 								$main._hide(true);
 								if (location.hash != '#a') {
-									resetVideo_guwrgura();
+									resetVideo_rurudo();
 								}
 
 						break;
@@ -355,7 +355,7 @@
 
 						// Hide.
 							$main._hide();
-							resetVideo_guwrgura();
+							resetVideo_rurudo();
 					}
 
 				// Otherwise, check for a matching article.
