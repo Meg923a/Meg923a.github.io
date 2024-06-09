@@ -5,6 +5,7 @@ var firstScriptTag = document.getElementsByTagName("script")[0];
 firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
 var player_rurudo;
+
 function onYouTubeIframeAPIReady() {
     player_rurudo = new YT.Player("player_rurudo", {
         height: "315",
@@ -22,6 +23,10 @@ function onYouTubeIframeAPIReady() {
 function onPlayerReady(event) {
     event.target.setVolume(40);
     event.target.playVideo();
+}
+
+function resetVideos() {
+    resetVideo_rurudo();
 }
 
 function resetVideo_rurudo() {
